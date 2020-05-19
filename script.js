@@ -3,9 +3,13 @@
 
  function loanProcess(){
      //this is the main function
-
-     var 
- }
+     var loan = document.getElementById("applyLoan");
+     var text = "your num1 is: " + num1 + " your num2 is "
+     + num2 "\n" +
+     "add them together " + sum;
+    
+     
+ }//loanProcess
 
 function add(){
 
@@ -13,6 +17,11 @@ function add(){
     var two;
     var sum;
 
-    sum = one + two;
+    alert(sum);
+}//add
 
-}
+function displayDetails(){
+
+
+}//displayDetails
+
