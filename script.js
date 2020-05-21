@@ -16,17 +16,15 @@ function loanProcess(){
      var n = 12;
 
      //try # 1 it worked
-    var sum = parseFloat(amtDesired) + parseFloat(apr) + parseFloat(year) + n + 10;
-    document.getElementById("answer").innerHTML = ("your total is " + sum);
+    //var sum = parseFloat(amtDesired) + parseFloat(apr) + parseFloat(year) + n + 10;
+    //document.getElementById("answer").innerHTML = ("your total is " + sum);
 
+    //var aprN = (apr) / (n);
     //var power = (-n) * (year);
-    ///var numerator = (amtDesired) * ((apr)/(n));
-    //var denom = (1 - (1 + Math.pow( (apr)/(n) ,power)));
-
+    //var numerator = (amtDesired) * (aprN);
+    //var denom = 1 - (1 + Math.pow(aprN,power));
     //var payment = (numerator) / (denom);
-
-
-    //document.getElementById("answer").innerHTML = ("your total is " + payment);
+   //document.getElementById("answer").innerHTML = ("your total is " + payment);
 
 
         
