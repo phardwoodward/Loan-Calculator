@@ -6,7 +6,8 @@ function loanProcess(){
 
 	var one = document.getElementById("num1").value;
     var two = document.getElementById("num2").value;
-    var sum = parseInt(one) + parseInt(two);
-    document.getElementById("answer").innerHTML = sum;
+    var three = document.getElementById("num3").value;
+    var sum = parseInt(one) + parseInt(two) + parseInt(three);
+    document.getElementById("answer").innerHTML = ("your total is " + sum);
         
 }
