@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+/*this is the styling for the content page*/
+@import url
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins',sans-serif;
+}
+
