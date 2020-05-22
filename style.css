@@ -66,24 +66,36 @@ body{
 
 .container .box:nth-child(2) .icon
 {
-    box-shadow: 0 0 0 0 #e91e63;
-    background: #e91e63;
+    box-shadow: 0 0 0 0 #23e629;
+    background: #23e629;
 }
 
 .container .box:nth-child(2):hover .icon
 {
-    box-shadow: 0 0 0 400px #e91e63;
+    box-shadow: 0 0 0 400px #23e629;
 }
 
 .container .box:nth-child(3) .icon
 {
-    box-shadow: 0 0 0 0 #e91e63;
-    background: #e91e63;
+    box-shadow: 0 0 0 0 skyblue;
+    background: skyblue;
 }
 
 .container .box:nth-child(3):hover .icon
 {
-    box-shadow: 0 0 0 400px #e91e63;
+    box-shadow: 0 0 0 400px skyblue;
+}
+
+.container .box .content
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .box:hover .content
+{
+    color: #fff;
 }
 
 
